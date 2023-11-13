@@ -1,0 +1,27 @@
+/* En tu archivo de estilos CSS o en línea si estás usando styled-components */
+
+.formalite-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Otra opción: justify-content: space-around; */
+    width: 75%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+.formalite-item {
+    width: calc(33.33% - 8px); /* Utilizamos calc para tener un margen derecho */
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    font-size: 14px; /* Tamaño de texto más pequeño */
+    border-radius: 8px; /* Bordes más suaves */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+.formalite-item:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+  }
