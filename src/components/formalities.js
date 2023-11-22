@@ -168,9 +168,8 @@ export const Formalities = () => {
     ]
     return (
         <>
-            
+            <div>----------Tramites Notariales---------</div>
             <div className="formalite-container">
-                <p>----------Tramites Notariales---------</p>
                 {formaliteList.map((tramite, index) => (
                     <div key={index} className="formalite-item">
                         {tramite}

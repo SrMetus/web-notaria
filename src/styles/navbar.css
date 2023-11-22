@@ -1,0 +1,54 @@
+/* Estilos para el Navbar */
+.navbar {
+    background-color: #1c1c1c;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el Navbar Brand */
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Estilos para los enlaces del Navbar */
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Cambios al pasar el mouse sobre los enlaces del Navbar */
+  .navbar-nav .nav-link:hover {
+    color: #ffd700;
+  }
+  
+  /* Estilos para el Dropdown y sus elementos */
+  .navbar-nav .dropdown:hover .nav-link {
+    color: #ffd700;
+  }
+  
+  .dropdown-menu {
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Cambios al pasar el mouse sobre los elementos del Dropdown */
+  .dropdown-item:hover {
+    background-color: #333;
+    color: #ffd700;
+  }
+  
