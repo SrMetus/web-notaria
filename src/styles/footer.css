@@ -1,10 +1,11 @@
 /* Estilos para el Footer */
-.footer {
-    background-color: #1c1c1c;
-    color: #fff;
-    padding: 15px 20px;
-    text-align: center;
-  }
+footer {
+  background-color: #333; /* Ajusta según tus necesidades */
+  color: #fff; /* Ajusta según tus necesidades */
+  padding: 10px;
+  width: 100%;
+}
+
   
   /* Cambios al pasar el mouse sobre los enlaces del Footer (si hay enlaces) */
   .footer a:hover {
